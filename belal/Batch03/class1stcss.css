@@ -1,0 +1,168 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+ 
+ 
+ *{margin: 0px;
+  padding: 0px;}
+
+  body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+  }
+
+  .container{
+    width: 1140px;
+    margin:auto;
+   
+ 
+  }
+  #mainHeader{
+   border: 3px solid rgb;}
+ 
+#topNavBar{
+   background:blue;color:rgb(255, 255, 255);
+   padding: 15px 15px;
+   font-size: 13px;
+
+}
+
+#navBar{
+  background:#f6efef;
+
+}
+.shortContact,.currentTime,.socialIcon{
+  width: 370px;
+  float:left;
+ 
+}
+.topNavInnerParent{
+  overflow:hidden ;
+
+}
+.socialIcon{
+  margin-right: 0px;
+  width: 120px;
+  float: right;
+}
+
+.socialIcon i{
+   margin-left: 10px;
+}
+.shortContact span{
+  margin-left: 5px;
+}
+.email{
+  margin-right: 50px;
+}
+.dayTime{
+  margin-left: 10px;
+}
+
+
+.shortContact {
+  margin-right: 240px;
+}
+#navBar{
+ background: white;
+}
+.navLogo {
+  width: 290px;
+  overflow: hidden;
+  margin-top: 35px;  
+}
+.navLogo img{
+  width: 140px;
+}
+.navBarInner .navLogo,.mainNavBar,.navSearch{
+  float: left;
+}
+
+.menu {
+display: table;  
+list-style: none;
+  margin-left: 20px;
+}
+
+li {}
+
+.menu li {
+  position: relative;
+  float: left;
+}
+
+
+
+.menu li a {
+  text-decoration: none;
+  padding: 40px 20px;
+  /* background: red; */
+  display: block;
+  font-weight: 700;
+  color: #333;
+}
+.menu li a:hover{
+  color: #106DEA;
+}
+
+.navSearch {
+  font-size: 20px;
+  text-align: right;
+  width: 230px;
+  float: right;
+  margin-top: 38px;
+}
+
+.navBarInner {
+ display: table;
+}
+
+
+
+.mainNavBar {
+  width: 615px;
+}
+
+/*subMenu Css*/
+.menu .subMenu{
+  transform-origin: top;
+  transition: .5s;
+  transform: scaleY(0);
+  list-style: none;
+  width:250px;
+  background :#106DEA;
+  position: absolute;
+  left: 0px;
+   top:100px;
+
+  
+}
+.subMenu li{
+ 
+  float:none;
+}
+.subMenu li a{
+  padding: 10px 30px;
+  color: white;
+}
+.subMenu{
+  color: rgb(255, 255, 255);
+
+}
+.menu li:hover .subMenu{
+    transform: scale(1);
+}
+
+/*slider Css Here*/
+
+.mainSlider img {
+  height: 600px;
+  width: 100%
+}
+
+
+
+
+
+
+
